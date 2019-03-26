@@ -1,31 +1,28 @@
-Photon by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+﻿Необходимо сверстать промо-страницу по макету.
 
 
-A simple (gradient-heavy) single pager that revisits a style I messed with on two
-previous designs (Tessellate and Telephasic). Fully responsive, built on Sass,
-and, as usual, loaded with an assortment of pre-styled elements. Have fun! :)
+Модульная сетка - резиновая, 12 колонок с расстояниями между ними, ширина - 90% от вьюпорта, максимум 1092px, минимум - 819px.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
+Ширина колонки - 80/1092 от общей ширины сетки (то есть 80px при максимальной ширине, 60px - при минимальной),
+расстояние между колонками - 12/1092(12px и 9px соответственно).
 
 
-Credits:
+При ширине экрана менее 859px (мимимальная сетка + поля по 20px) продумать адаптивные стили, вплоть до ширины вьюпорта 320px.
 
-	Demo Images:
-		Unsplash (unsplash.com)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Тексты для второго блока - https://domains.jino.ru/price/.ru/.
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+На первом блоке сообщение "Домен свободен" появляется после сабмита формы.
+
+
+Будет плюсом, если стили будут написаны с использованием SASS, а JS - на чистом JS (ES6 или ES5).
+
+Это не обязательные требования, но именно с этим придется работать в случае найма.
+
+Bootstrap и другие подобные CSS-фреймворки не использовать.
+
+Все должно хорошо выглядеть и работать в последних версиях современных браузеров и IE11.
+
+
+Обратите внимание: макет promo.psd выполнен в двойном размере: то есть в реальности все элементы должны быть в два раза меньше.
