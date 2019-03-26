@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.style1{
+  background-image: url("../images/background1.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.l-wrap {
+  width: 90%;
+  max-width: 1092px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.three-col-grid::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.header {
+  color: red;
+}
+.header p{
+  display: inline;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+
+.central{
+  margin: 0 auto;
+}
+
+.central-8{
+  margin-left: calc((100%*(2*80+2*12)/1092));
+  width: calc((100%*(8*80+7*12)/1092));
+}
+
+.form-holder{
+  background-color:white;
+  height:60px;
+  z-index: 10;
+  position: relative;
+  padding:10px;
+}
+
+.input-field{
+  width: 70%;
+  height: 100%;
+  border: none;
+}
+.test-button{
+  width: 28%;
+  background-color:#5F6062;
+  color:white;
+  height: 95%;
+}
+
+.test-result{
+  position:relative;
+  background-color:rgb(45, 153, 111);
+  top:-10px;
+  z-index: 8;
+}
+
+.test-result-text{
+  color: green;
+  padding:20px 10px 10px 10px;
+  margin:0;
+  display: inline-block;
+
+}
+.round-border{
+  border-radius: 7px;
+  border-width: 0;
+}
+.create-acc-button{
+  background-color: #61B818;
+  color: white;
+  padding: 10px 30px;
+}
+.full-height{
+  height: 100%;
+}
