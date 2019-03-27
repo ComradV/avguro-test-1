@@ -1,36 +1,19 @@
 <!DOCTYPE HTML>
-<!--
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
-  <title>Photon by HTML5 UP</title>
+  <title>Домены Джино</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="css/style.css" />
-  <?xml-stylesheet type="text/css" href="css/style.css"?>
 </head>
 
 <body>
-
-  <!-- Header -->
-  <!-- <section id="header">
-    <div class="inner">
-      <span class="icon major fa-cloud"></span>
-      <h1>Hi, I'm <strong>Photon</strong>, another fine<br />
-        little freebie from <a href="http://html5up.net">HTML5 UP</a>.</h1>
-      <p>Accumsan feugiat mi commodo erat lorem ipsum, sed magna<br />
-        lobortis feugiat sapien sed etiam volutpat accumsan.</p>
-      <ul class="actions special">
-        <li><a href="#one" class="button scrolly">Discover</a></li>
-      </ul>
-    </div>
-  </section> -->
-
-  <!-- One -->
+  <nav id="navigator">
+    <a href="#page1" class="current"></a>
+    <a href="#page2"></a>
+    <a href="#page3"></a>
+  </nav>
   <section id="page1">
     <div class="l-wrap">
       <div class="ruler r1"></div>
@@ -45,7 +28,6 @@
       <div class="ruler r10"></div>
       <div class="ruler r11"></div>
       <div class="ruler r12"></div>
-      <nav></nav>
       <div class="header">
         <object type="image/svg+xml" data="images/logo-white.svg" class="fill-white"></object>
         <p class="white">домены</p>
@@ -58,14 +40,15 @@
 за домен .RU &#8211 39&#8381</pre>
       </h1>
 
-      <div class="central-8 form-holder round-border">
-        <form class="full-height">
+      <div id="form-holder" class="central-8 round-border">
+        <form id="test-form" class="full-height">
           <input class="input-field round-border" type='text' name='domain_name' placeholder='Введите имя домена'>
           <input class="test-button round-border white" type='submit' value='Проверить'>
         </form>
       </div>
-      <div class="central-8 round-border test-result">
-        <p class="white">Результат теста: <a href="#">Тут будет ссылка</a></p>
+
+      <div id="test-result" class="central-8 round-border hidden">
+        <p class="white">!!!<a href="#">Зарегистрировать за 39&#8381</a></p>
       </div>
       <div class="central">
         <button class="create-acc-button round-border white">Создать аккаунт</button>
@@ -78,10 +61,9 @@
 
   <section id="page2">
     <div class="l-wrap">
-      <nav></nav>
       <div class="header">
-        <object type="image/svg+xml" data="images/logo-white.svg" class="fill-white"></object>
-        <p class="white">домены</p>
+        <object type="image/svg+xml" data="images/logo-red.svg" class="fill-white"></object>
+        <p class="black">домены</p>
       </div>
       <h1 class="black">
         Зарегистрировав у нас домен, вы получите
@@ -103,8 +85,8 @@
           <img src="">
           <p>Описание</p>
         </div>
-      </div>
-      <div id="feature-description">
+      <!-- </div> -->
+      <aside id="feature-description">
         <p id="feature-description-text">Ntrcndsfaksdjf;ldkjasf;kjasdf;kjNtrcndsfaksdjf;ldkjasf;kjasdf;kjNtr
           cndsfaksdjf;l dkjasf;kjasdf
           ;kjNtjasf;kjasdf;kjNtrcndsfaksdjf;ldkjasf;kjasdf
@@ -112,8 +94,8 @@
           ;kjasdf;kjNtrcndsfaksdjf;ldkjasf;kjasdf;kjNtrcnds
           faksdjf;ldkjasf;kjasdf;kjNtrcndsfaksdjf;ldkjasf;kjasdf;kj
         </p>
-      </div>
-      <div class="feature-holder">
+      </aside>
+      <!-- <div class="feature-holder"> -->
         <div data-index="feature4" class="feature">
           <img src="">
           <p>Описание</p>
@@ -139,7 +121,6 @@
 
   <section id="page3">
     <div class="l-wrap">
-      <nav></nav>
       <div class="header">
         <object type="image/svg+xml" data="images/logo-white.svg" class="fill-white"></object>
         <p class="white">домены</p>
@@ -165,7 +146,7 @@
           зарегистрировавшись в течение 24 часов после посещения данной страницы</p>
         <p id="bonus-right">1000<img id="plus" src="images/plus-normal.svg"></p>
       </div>
-      <footer>&copy;&laquo;<a>Джино</a>&raquo;, 2003-2017. &laquo;Джино&raquo; является зарегистрированным товарным
+      <footer>&copy;&laquo;<a href="#">Джино</a>&raquo;, 2003-2017. &laquo;Джино&raquo; является зарегистрированным товарным
         знаком.
         Лицензия на телематические услуги связи № 97495 от 09.03.2012. <a href="#">Правовая информация</a></footer>
 
